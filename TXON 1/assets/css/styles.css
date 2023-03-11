@@ -1,0 +1,267 @@
+/**
+ * /* =========================================================
+ *   	FONTS
+ *     =========================================================
+ *
+ * @format
+ */
+
+@import url('../fonts/Nunito-Italic-VariableFont_wght.ttf');
+@import url('../fonts/Nunito-VariableFont_wght.ttf');
+
+/* =========================================================
+	MAIN STYLES
+   =========================================================
+ */
+html {
+	height: 100%;
+}
+body {
+	font-family: 'Nunito', sans-serif;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	text-rendering: optimizeLegibility;
+}
+
+header {
+	min-height: 50px; /*for responsive design*/
+	padding-top: 0;
+}
+
+header ul {
+	padding: 0;
+	margin: 0;
+}
+header li {
+	padding-left: 20px;
+	padding-right: 20px;
+	display: inline-flex;
+	float: left;
+}
+header li button {
+	margin-top: -10px;
+}
+button {
+	font-size: 15px;
+	background-color: #ec4067;
+	border: none;
+	border-radius: 0.375rem;
+	padding: 10px 34px;
+	color: white;
+	cursor: pointer;
+}
+h4 {
+	font-size: larger;
+	font-weight: 600;
+}
+.wrapper {
+	width: 85%;
+	margin: auto;
+	overflow: hidden;
+}
+header a {
+	color: grey;
+	text-decoration: none;
+}
+.logo {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+nav {
+	float: right;
+	min-height: 50px;
+	margin-top: 40px;
+}
+.logo {
+	float: left;
+}
+.logo span {
+	color: #ec4067;
+}
+
+/* Hero section */
+.info {
+	float: left;
+	width: 50%;
+}
+.info p {
+	margin-bottom: 150px;
+	font-size: larger;
+	font-weight: lighter;
+	line-height: 40px;
+}
+.info button {
+	margin-left: 0;
+	margin-bottom: 5px;
+}
+.info h4 {
+	font-weight: 600;
+}
+.info h3 {
+	color: #ec4067;
+	font-weight: 590;
+	font-size: 2rem;
+}
+.info-img {
+	float: right;
+}
+.explore {
+	border: 1px solid #ec4067;
+	background-color: inherit;
+	border-radius: 0;
+	color: #ec4067;
+}
+
+.story-title {
+	display: flex;
+	margin-bottom: -40px;
+}
+.story-title h4 span {
+	background-color: lightgray;
+}
+.story-title p {
+	padding-top: 29px;
+	padding-left: 8px;
+	font-size: 0.8rem;
+}
+/* stories section */
+.stories-container {
+	display: flex;
+}
+.story-item {
+	width: 50%;
+	height: 500px;
+	margin-top: 40px;
+	overflow: hidden;
+}
+.story-item p {
+	width: 60%;
+	line-height: 2;
+}
+.story-item-1 {
+	background-image: url(../images/image\ 2.png);
+	background-size: 100% 100%;
+}
+.story-item-1b {
+	background-image: url(../images/image\ 3.png);
+	background-size: 100% 100%;
+}
+.story-item-1c {
+	background-image: url(../images/image\ 4.png);
+	background-size: 100% 100%;
+}
+.story-item-2 div {
+	align-items: center;
+	margin-left: 90px;
+	margin-top: 60px;
+}
+.story-item-2b div {
+	align-items: center;
+	margin-right: 50px;
+	margin-top: 90px;
+}
+.story-item-2c div {
+	align-items: center;
+	margin-left: 90px;
+	margin-top: 60px;
+}
+.number {
+	margin-left: 95%;
+	color: white;
+}
+.number-1 {
+	padding-left: 10px;
+	color: white;
+}
+
+.date {
+	margin-top: 420px;
+	margin-left: 10px;
+	color: white;
+}
+
+.date-1 {
+	margin-top: 420px;
+	margin-left: 80%;
+	color: white;
+}
+.mentors-title {
+	display: flex;
+	margin-bottom: -40px;
+	margin-top: 40px;
+}
+.mentors-title h4 span {
+	background-color: lightgray;
+}
+.mentors-title p {
+	padding-top: 29px;
+	padding-left: 8px;
+	font-size: 0.8rem;
+}
+.mentors {
+	display: flex;
+	justify-content: center;
+}
+.card {
+	width: 18%;
+	margin: 20px;
+}
+.card-img {
+	height: 230px;
+	background-color: #fff;
+	margin-bottom: 17px;
+	background-size: 100% 100%;
+}
+.card-img h3 {
+	color: #fff;
+	padding-top: 200px;
+	padding-left: 8px;
+}
+.card h2 {
+	color: #ec4067;
+}
+
+.card-1 {
+	background-image: url(../images/image\ 5.png);
+}
+.card-2 {
+	background-image: url(../images/image\ 6.png);
+}
+.card-3 {
+	background-image: url(../images/image\ 7.png);
+}
+.card-4 {
+	background-image: url(../images/image\ 8.png);
+}
+/* project section */
+.story-item-1bp {
+	background-image: url(../images/image\ 9.png);
+	background-size: 100% 100%;
+}
+.pad-h3 h3 {
+	color: #ec4067;
+	font-size: 2rem;
+	margin-top: -20px;
+}
+.pad {
+	margin-bottom: 40px;
+}
+.project-link {
+	text-decoration: none;
+	color: #ec4067;
+}
+.project {
+	margin-bottom: 50px;
+}
+footer {
+	height: 100px;
+
+	display: flex;
+	flex-direction: row;
+	text-transform: capitalize;
+	align-items: center;
+	justify-content: center;
+	background-color: #f1eeee;
+}
